@@ -1,17 +1,12 @@
-# bamazon
+# **bamazon**
 
 A command line application that works like an online storefront. Uses Node.js and mySql to allow a customer to choose products from a table and updates the table based on that selection.
-
-
-
 
 ## Installation
 
 * In order to install and run the bamazon app please first fork/clone the repository. 
 
 * In your terminal run `npm install` in order to install the appropriate packages listed in the package.json dependencies. 
-
-
 
 ## Demo
 
