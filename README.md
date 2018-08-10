@@ -19,3 +19,14 @@ A command line application that works like an online storefront. Uses Node.js an
 4. If the amount you are requesting is more than the current inventory, it should show you a message saying there is insufficient quantity!
 
 5. Lastly it updates the table with the new inventory after it has removed your quantity purchased. 
+
+## Technologies 
+  * *mySql*
+  * *Node.js*
+  * *inquirer NPM package*
+  * *cli-table NPM package*
+  * *mySql NPM package*
+  
+## Authors
+
+Andrew Jasinski
