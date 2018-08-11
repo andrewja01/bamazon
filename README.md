@@ -20,7 +20,7 @@ A command line application that works like an online storefront. Uses Node.js an
 
 5. Lastly it updates the table with the new inventory after it has removed your quantity purchased. 
 
-![bamazon Gif](https://github.com/andrewja01/bamazon/images/bamazonGIF.gif)
+[video demo](https://youtu.be/hnGzOPc7hXQ)
 
 ## Technologies 
   * *mySql*
