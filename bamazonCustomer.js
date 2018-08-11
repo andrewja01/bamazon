@@ -6,7 +6,7 @@ var connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
     user: "root",
-    password: "",
+    password: "Andy123",
     database: "bamazon_db"
 });
 
@@ -73,8 +73,6 @@ function productSelect() {
                 var selectedId = res[0].item_id;
                 var selectedAmt = res[0].stock_quantity;
                 var newQuantity = res[0].stock_quantity - answerUnits;
-                // var sum = (selectedPrice * answerUnits
-                //console.log(res);
 
                 if (answerUnits > selectedAmt) {
                     console.log(seperator);
@@ -104,16 +102,14 @@ function productSelect() {
                                     message: 'Would you like to purchase any additional items?',
                                     default: "true"
                                 }])
-                            .then(function(answer){
-                                console.log(answer);
+                            .then(function (answer) {
+                                
                                 if (answer.More === true) {
                                     return displayTable();
                                 } else
                                     console.log("Thank You!")
-                                    return connection.end();
+                                return connection.end();
                             });
-
-                        //console.log("You purchased " + answer.Units + " of Item Id " + answer.Product_ID);
                     }
                 );
             });
