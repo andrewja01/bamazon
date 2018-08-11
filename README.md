@@ -12,13 +12,13 @@ A command line application that works like an online storefront. Uses Node.js an
 
 1. Run `node bamazon.js` 
 
-2. This displays the table with the currenty product inventory and will display a question asking which item id you would like to purchase?
+2. This displays the table with the currenty product inventory and will display a question asking which item id you would like to purchase.
 
-3. Then it will ask how many units of that product you would like to purchase?
+3. Then it will ask how many units of that product you would like to purchase.
 
 4. If the amount you are requesting is more than the current inventory, it should show you a message saying there is insufficient quantity!
 
-5. Lastly it updates the table with the new inventory after it has removed your quantity purchased. 
+5. Lastly it updates the table with the new inventory after it has removed your quantity purchased and asks you if you would like to make another purchase. If no it will end the connection. I yes it will re-display the table and run through again.
 
 [video demo](https://youtu.be/hnGzOPc7hXQ)
 
