@@ -10,7 +10,7 @@ A command line application that works like an online storefront. Uses Node.js an
 
 ## Demo
 
-1. Run `node bamazon.js` 
+1. Run `node bamazonCustomer.js` 
 
 2. This displays the table with the currenty product inventory and will display a question asking which item id you would like to purchase.
 
