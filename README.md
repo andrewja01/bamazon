@@ -18,7 +18,7 @@ A command line application that works like an online storefront. Uses Node.js an
 
 4. If the amount you are requesting is more than the current inventory, it should show you a message saying there is insufficient quantity!
 
-5. Lastly it updates the table with the new inventory after it has removed your quantity purchased and asks you if you would like to make another purchase. If no it will end the connection. I yes it will re-display the table and run through again.
+5. Lastly it updates the table with the new inventory after it has removed your quantity purchased and asks you if you would like to make another purchase. If no, it will end the connection. If yes, it will re-display the table and run through again.
 
 [video demo](https://youtu.be/hnGzOPc7hXQ)
 
